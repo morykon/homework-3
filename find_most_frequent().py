@@ -34,32 +34,5 @@ def find_most_frequent(s):
         return([])
 
 
-# In[14]:
 
-
-find_most_frequent('to understand recursion you need first to understand recursion...')
-
-
-# In[15]:
-
-
-find_most_frequent('Mom! Mom! Are you sleeping sleeping sleeping sleeping?!!!')
-
-
-# In[16]:
-
-
-find_most_frequent('Hello,Hello, my dear!')
-
-
-# In[17]:
-
-
-find_most_frequent('to understand recursion you need first to understand recursion...')
-
-
-# In[18]:
-
-
-find_most_frequent('Mom! Mom! Are you sleeping sleeping sleeping sleeping?!!!')
 
