@@ -4,28 +4,22 @@
 # In[111]:
 
 
-
+# 1)
 def counter(a, b):
-    
-    na = []
-    nb = []
+   
     c = list(map(int, str(a)))
     v = list(map(int, str(b)))
-   
-    from itertools import groupby
-    
-    na = [s for s, _ in groupby(c)]
-    #print(na)
-    nb = [s for s, _ in groupby(v)]
-    #print(nb)
         
-    result=list(set(na) & set(nb))
-    ln = len(result)
+    res=list(set(c) & set(v))
+    ln = len(res)
     
-    if result:
+    if res:
         print(ln)       
     else:
         print('0')
+        
+# 2)
+
 
 
 # In[112]:
