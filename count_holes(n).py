@@ -2,8 +2,8 @@ def count_holes(n):
     l = n.lstrip('0')
     m = l.lstrip('-')
     
-    for char in m:
-        if char.isalpha():
+    for c in m:
+        if c.isalpha():
             print("ERROR")
             quit()
         p = '.'
